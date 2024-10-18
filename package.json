@@ -5,6 +5,7 @@
   "scripts": {
     "build": "tsc -b && vite build",
     "dev": "vite",
+    "dev:vercel": "vercel dev",
     "format": "prettier . --check",
     "format:fix": "prettier . --write",
     "lint": "eslint .",
